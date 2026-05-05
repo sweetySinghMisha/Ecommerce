@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #fff0f5
+}
+
+.navbar{
+    background:White;
+    padding:15px 30px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    color: #d63384;
+}
+
+.navbar ul{
+    list-style: none;
+    display:flex;
+    gap: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #555;
+}
+
+.active{
+    color: #d63384;
+}
+
+.head{
+    height:300px;
+    background: url("/bangles3.jpg");
+    background-size: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:Center; /*main axis= top to bottom , content ko vertically center karta hai ↑↓ */
+    align-items: center;/*Cross axis = left to right,content ko horizontally center karega ←→ */
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.head button{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background:#d63384;
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding:8px 15px;
+    margin-top:10px;
+}
+
+.heading{
+    text-align:center;
+    margin:40px 0 10px;
+    color:#d63384;
+}
+
+.grid{
+    display: grid;
+    padding:20px;
+    gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.card{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    height:280px;
+    width:100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h3{
+     margin-top: 10px;
+    color: #d63384;
+}
+
+.buy-btn{
+    background: #d63384;
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding:8px 15px;
+    margin-top:10px;
+}
+
+
+.about-text{
+    text-align: center;
+    max-width:700px;
+    margin:auto;
+    padding:10px 20px;
+    color: #555;
+}
+
+.stars{
+    color:gold;
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    gap:10px;
+    padding:20px;
+    max-width:500px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+}
+
+.contact-form button{
+    padding:10px;
+    background: #d63384;
+    color:white;
+    border:none;
+    border-radius:5px
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
